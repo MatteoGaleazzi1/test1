@@ -1,0 +1,87 @@
+body {
+  font-family: Georgia, serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fdfdfd;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 50px;
+}
+
+nav {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.quote-container {
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* ===============================
+   FOOTER (migliorie)
+   =============================== */
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9em;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+footer a {
+  color: inherit;           /* il link eredita il colore tenue del footer */
+  text-decoration: underline;
+}
+
+/* ===============================
+   RESPONSIVE (migliorie)
+   =============================== */
+@media (max-width: 600px) {
+  body {
+    margin: 20px auto;
+    padding: 0 12px;
+    line-height: 1.7;       /* un filo più arioso su schermi piccoli */
+  }
+
+  nav {
+    margin-bottom: 24px;
+  }
+
+  h1 {
+    font-size: 1.6em;       /* scala leggermente il titolo */
+  }
+
+  .intro {
+    margin-top: 30px;
+  }
+
+  .quote {
+    font-size: 1.05em;      /* evita testi troppo grandi su mobile */
+  }
+}
